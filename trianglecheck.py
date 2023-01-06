@@ -1,8 +1,6 @@
 # init
-import os
-api_key = os.environ.get('binance_api')
-api_secret = os.environ.get('binance_secret')
-
+api_key = "ucqMzmbqswWPqo4bfQp4DoPyUTFIV2wO749sXmAPyIqwkA4vKQKSO6CZKAPi3DEA"
+api_secret = "KRQYhVnepPwutIprQmxyDbugCGCNMkr7WL3Cm7zqQoK9GIuGdLJQpoJqIooTqWnY"
 
 from binance.client import Client
 client = Client(api_key, api_secret)
