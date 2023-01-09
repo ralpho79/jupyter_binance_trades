@@ -1,3 +1,5 @@
-first github project
+My first github project
+using Binance Test Network API
+Works on local but now trying to make it work with Binder :/
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ralpho79/hello_world/HEAD?urlpath=%2Fvoila%2Frender%2Ffinxter_binance.ipynb)
