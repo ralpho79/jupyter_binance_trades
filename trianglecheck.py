@@ -4,7 +4,12 @@ api_secret = "KRQYhVnepPwutIprQmxyDbugCGCNMkr7WL3Cm7zqQoK9GIuGdLJQpoJqIooTqWnY"
 
 from binance.client import Client
 print("Imported Client and now trying to initialize the client...")
-client = Client(api_key, api_secret)
+try:
+    client = Client(api_key, api_secret)
+except BinanceAPIException as e:
+    print(e.status_code)
+    print(e.message)
+    print(e.code)client = Client(api_key, api_secret)
 
 # get all order book tickers once 
 tickers = client.get_orderbook_tickers()
