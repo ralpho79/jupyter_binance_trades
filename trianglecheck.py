@@ -9,7 +9,7 @@ try:
 except BinanceAPIException as e:
     print(e.status_code)
     print(e.message)
-    print(e.code)client = Client(api_key, api_secret)
+    print(e.code)
 
 # get all order book tickers once 
 tickers = client.get_orderbook_tickers()
