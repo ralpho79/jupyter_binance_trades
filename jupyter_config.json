@@ -1,5 +1,7 @@
 {
   "VoilaConfiguration": {
-    "show_tracebacks": true
+    "show_tracebacks": true,
+    "theme": "dark",
+    "template": "gridstack"
   }
 }
