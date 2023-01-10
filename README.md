@@ -7,4 +7,4 @@
 <p> Been trying to deploy it on Binder but Binance refuses :/ It throws an API Exception error. 
 <p> No plans at the moment to resolve that (like, convince Binance to allow U.S. servers...?)
 
-  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ralpho79/hello_world/HEAD?urlpath=%2Fvoila%2Frender%2Ffinxter_binance.ipynb)
+  [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ralpho79/jupyter_binance_trades/HEAD?urlpath=%2Fvoila%2Frender%2Ffinxter_binance.ipynb)
